@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+<script>
+    var a ='  a b c  ';
+    var b = 0;
+    var c =a.length-1;
+    while(a[b] ==''){
+            b++;
+        }
+        while(a[c] ==''){
+            c--;
+        }
+        var result = b>c?a.slice(b,c+1):'';
+        console.log(result);
+</script>
+</html>
